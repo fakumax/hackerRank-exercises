@@ -1,4 +1,4 @@
-function diagonalDifference(arr) {
+export function diagonalDifference(arr) {
   // Write your code here
   let suma = 0;
   let resta = 0;
@@ -15,9 +15,3 @@ function diagonalDifference(arr) {
   }
   return Math.abs(suma - resta);
 }
-
-diagonalDifference([
-  [11, 2, 4],
-  [4, 5, 6],
-  [10, 8, -12],
-]);
