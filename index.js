@@ -1,6 +1,9 @@
 import { diagonalDifference } from './src/diagonalDifference.js';
 import plusMinus from './src/plusMinus.js';
 import { miniMaxSum } from './src/miniMaxSum.js';
+import { timeConversion } from './src/timeConversion.js';
+import { findMedian } from './src/findMedian.js';
+import { fizzBuzz } from './src/fizzBuzz.js';
 
 ////////////diagonalDifference///////////////////
 
@@ -16,4 +19,16 @@ import { miniMaxSum } from './src/miniMaxSum.js';
 
 ////////////miniMaxSum///////////////////
 
-miniMaxSum([1, 2, 3, 4, 5]);
+// miniMaxSum([1, 2, 3, 4, 5]);
+
+////////////timeConversion///////////////////
+
+//timeConversion('09:05:45PM');
+
+////////////findMedian///////////////////
+
+//findMedian([2, 0, 1, 3, 4]);
+
+////////////fizzBuzz///////////////////
+
+fizzBuzz(15);
