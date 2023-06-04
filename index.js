@@ -27,8 +27,10 @@ import { fizzBuzz } from './src/fizzBuzz.js';
 
 ////////////findMedian///////////////////
 
-//findMedian([2, 0, 1, 3, 4]);
+console.log(findMedian([1, 2, 3, 4, 5]));
+
+console.log(findMedian([1, 10, 2, 20]));
 
 ////////////fizzBuzz///////////////////
 
-fizzBuzz(15);
+//fizzBuzz(15);
